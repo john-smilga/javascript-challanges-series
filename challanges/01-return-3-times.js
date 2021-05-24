@@ -1,8 +1,6 @@
 // Quokka.js extension
 //"CMD + K + Q" - Existing File, "CMD + K + J" - New File
 
-// return 3 times
-
 // function example(a, b) {
 //   return function (c, d) {
 //     return function (e, f) {
