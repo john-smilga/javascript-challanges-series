@@ -11,21 +11,11 @@
 // 7 + 4 + 5= 16
 // 16 % 2 = 0
 
-// Number To String
-// .toString()
-// + ''
-
-// String To Number
-// parseInt - for integer
-// parseFloat - for decimals
-// Number - returns NaN if not a number
-
 // const sum = (number) => {
 //   const items = [...(number + '')]
 //   const result = items.reduce((total, item) => {
 //     return total + Number(item)
 //   }, 0)
-//   console.log(result)
 //   return result % 2 === 0 ? 'EVEN' : 'ODD'
 // }
 
@@ -35,5 +25,13 @@ const sum = (number) =>
   0
     ? 'EVEN'
     : 'ODD'
-console.log(sum(56))
 console.log(sum(745))
+
+// Number To String
+// .toString()
+// + ''
+
+// String To Number
+// parseInt - for integer
+// parseFloat - for decimals
+// Number - returns NaN if not a number
